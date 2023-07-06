@@ -11,7 +11,6 @@ conn = pymongo.MongoClient("mongodb://localhost:27017/")
 nuovodb = conn["goldapi"]
 colle = nuovodb["xau"]
 
-
 logging.basicConfig(filename="/root/api_gold/stat_tv.log", level=logging.INFO)
 
 
